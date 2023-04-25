@@ -1,0 +1,58 @@
+body{
+	margin:0 auto;  /*沒有外距 一般預測有8px*/
+	height:100%;
+
+}
+
+
+#banner{
+	width:100%;
+	height: 50px;
+}
+
+#menu{
+	width:100%;
+	height: 50px;
+	background-color: black;
+}
+
+#content{
+	width:100%;
+	min-height: 400px;
+}
+
+#left{
+	width:65%;
+	min-height: 400px;
+	float:left;
+}
+
+#lefttop{
+	width:100%;
+	min-height: 50%;
+}
+
+#leftdown{
+	width:100%;
+	min-height: 50%;
+
+}
+
+#right{
+	width:35%;
+	min-height: 400px;
+	float:left;
+}
+
+.rightimg{
+
+}
+
+#footer{
+	width:100%;
+	height:100px;
+	background-color: #000000;
+	color: #ffffff;
+	text-align: center;/*footer裡面的文字置中*/
+	clear: both;
+}
